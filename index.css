@@ -326,7 +326,8 @@ hr {
 
     .col {
         width: 96%;
-        margin: 15px;
+        margin: 2%;
+        box-shadow: 0 0 10px lightblue, 0 0 8px;
     }
 
     /*box img*/
@@ -391,7 +392,8 @@ hr {
 
     .col {
         width: 96%;
-        margin: 15px;
+        margin: 2%;
+        box-shadow: 0 0 10px lightblue, 0 0 8px;
     }
 
     /*box img*/

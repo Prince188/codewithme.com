@@ -373,7 +373,7 @@ hr {
         margin-left: 5%;
         border-radius: 30px;
         /* border: 2px solid red; */
-        box-shadow: 0 0 30px, 0 0 15px grey;
+        box-shadow: 0 0 20px, 0 0 12px grey;
     }
 
     .body-cont {
@@ -429,7 +429,7 @@ hr {
     margin-left: 3%;
     border-radius: 30px;
     /* border: 2px solid red; */
-    box-shadow: 0 0 30px, 0 0 15px rgb(75, 75, 75);
+    box-shadow: 0 0 20px, 0 0 12px grey;
     }
     
     .body-cont {

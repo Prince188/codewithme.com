@@ -368,7 +368,7 @@ hr {
 
     .body {
         padding: 1%;
-        margin: 3% 0;
+        margin: 4% 0;
         width: 90%;
         margin-left: 5%;
         border-radius: 30px;
@@ -377,7 +377,7 @@ hr {
     }
 
     .body-cont {
-        columns: 1;
+        columns: 2;
     }
 }
 
@@ -424,7 +424,7 @@ hr {
     }
     .body {
     padding: 1%;
-    margin: 3% 0;
+    margin: 4% 0;
     width: 94%;
     margin-left: 3%;
     border-radius: 30px;

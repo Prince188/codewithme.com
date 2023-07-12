@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>What is HTML?</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- NAVBAR -->
+
+        <div class="nav">
+            <a href="index.html" class="backbtn" style="color: #34282c;">
+                <!-- <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i> BACK</strong> -->
+            </a>
+            <a href="#">
+                <!-- <img src="" alt=""> -->
+                <strong class="tit">CODE WITH ME : HTML</strong>
+            </a>
+            <a href="index.html" class="backbtn">
+                <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i>
+                    BACK</strong>
+            </a>
+        </div>
+
+        <!-- co navbar -->
+
+        <div class="conav">
+            <ul>
+                <li><a href="#"> <i class="fa fa-home" style="background: transparent;"></i> HOME</a></li>
+                <li><a href="#measure">MEASUREMENT</a></li>
+                <li><a href="#basic">BASIC</a></li>
+                <li><a href="#formatting">FORMATTING</a></li>
+                <li><a href="#form">FORMS AND INPUT</a></li>
+                <li><a href="#js">IMAGE</a></li>
+                <li><a href="#js">AUDIO/VIDEO</a></li>
+                <li><a href="#js">LINK</a></li>
+                <li><a href="#js">LIST</a></li>
+                <li><a href="#js">TABLE</a></li>
+                <li><a href="#js">STYLE AND SEMANTICS</a></li>
+                <li><a href="#js">META</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="body" id="measure">
+        <h1>MEASUREMENT UNIT</h1> <br>
+        <hr> <br>
+
+        <div class="body-cont">
+            <div class="col col1">
+                <p>
+                    <span class="name">cm :</span> centimeter
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">mm :</span> millimeter
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">in :</span> inches (1in = 96px = 2.54cm)
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">px :</span> pixels
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">pt :</span> points (1pt = 1/72in)
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">pc :</span> picas (1pc = 12pt = 1/6in)
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">em :</span> Relative to the font-size of the element (2em means 2 times the size
+                    of
+                    the current font)
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">ex :</span> Relative to the x-height of the current font (rarely used) (1ex =
+                    6px)
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">ch :</span> Relative to the width of the "0" (zero) (basically 1ch = 8px)
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">rem :</span> Relative to font-size of the root element ( 1rem = 16px)
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">vw :</span> Relative to 1% of the width of the viewport*
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">vh :</span> Relative to 1% of the height of the viewport*
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">vmin :</span> Relative to 1% of viewport's* smaller dimension
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">vmax :</span> Relative to 1% of viewport's* larger dimension
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">% :</span> Relative to the parent element
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- ------------------------------------------------------------------------------- BASIC TAGS -->
+
+    <div id="basic" class="body">
+        <h1 style="text-align: center;">BASIC</h1><br>
+        <hr> <br>
+
+        <div class="body-cont">
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060&#033DOCTYPE&#062 :</span> Defines the document type
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060html&#062 :</span> Define HTML document
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060head&#062 :</span> Contains metadata/information for the document
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060title&#062 :</span> Defines a title for the document
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060h1&#062 to &#060h6&#062 :</span> Defines HTML headings.
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060body&#062 :</span> Defines the document's body
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060p&#062 :</span> Defines a paragraph
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060br&#062 :</span> Insert single line break
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060hr&#062 :</span> Defines a thematic change in the content. basically add
+                    horizontal line
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060&#033--.....--&#062 :</span> Use to add comment
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ------------------------------------------------------------------------------- FORMATTING TAGS -->
+
+
+    <div id="formatting" class="body">
+
+        <h1>FORMATTING</h1><br>
+        <hr> <br>
+
+        <div class="body-cont">
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060abbr&#062 :</span> Defines an abbreviation or an acronym [ex: <abbr
+                        title="">hello</abbr> ]
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060address&#062 :</span> Defines contact information for the author/owner of a
+                    document/article [ex:
+                <address>surat , gujarat</address>]
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060b&#062 :</span> Defines bold text [ex: <b>hello</b>]
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060bdi&#062 :</span> Isolates a part of text that might be formatted in a
+                    different
+                    direction from other text outside it [note: not useful ]
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060bdo dir=" "&#062 :</span> Overrides the current text direction. value of dir
+                    defines the direction of string. <b> dir="ltr"</b> define left to right & <b>dir="rtl"</b> define
+                    right to left [ex: <bdo dir="ltr">ltr: hello</bdo> & rtl:<bdo dir="rtl">hello</bdo> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060blockquote&#062 :</span> Defines a section that is quoted from another
+                    source. start from new line [ex:
+                <blockquote>hello</blockquote> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060cite&#062 :</span> Defines the title of a work [ex: <cite>hello</cite> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060code&#062 :</span> Defines a piece of computer code [ex: <code>hello</code>
+                    ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060del&#062 :</span> Defines text that has been deleted from a document [ex:
+                    <del>hello</del> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060dfn&#062 :</span> Specifies a term that is going to be defined within the
+                    content [ex: <dfn>hello</dfn> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060em&#062 :</span> Defines emphasized text [em: <em>hello</em> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060i&#062 :</span> Defines a part of text in an alternate voice or mood [ex:
+                    <i>hello</i> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060ins&#062 :</span> Defines a text that has been inserted into a document [ex:
+                    <ins>hello</ins> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060kbd&#062 :</span> Defines keyboard input [ex: <kbd>hello</kbd> ]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060mark&#062 :</span> Defines marked/highlighted text [ex: <mark
+                        style="background-color: yellow;">hello</mark>]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060meter&#062 :</span> Defines a scalar measurement within a known range (a
+                    gauge)
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060pre&#062 :</span> Defines preformatted text
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060progress&#062 :</span> Represents the progress of a task
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060q&#062 :</span> Defines a short quotation
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060rp&#062 :</span> Defines what to show in browsers that do not support ruby
+                    annotations
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060rt&#062 :</span> Defines an explanation/pronunciation of characters (for
+                    East Asian typography)
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060ruby&#062 :</span> Defines a ruby annotation (for East Asian typography)
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060s&#062 :</span> Defines text that is no longer correct .[ similar to del
+                    tag]
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060samp&#062 :</span> Defines sample output from a computer program
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060small&#062 :</span> Defines smaller text
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060storng&#062 :</span> Defines important text
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060sub&#062 :</span> Defines subscripted text
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060sup&#062 :</span> Defines superscripted text
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060time&#062 :</span> Defines a specific time (or datetime)
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060u&#062 :</span> Defines some text that is unarticulated and styled
+                    differently from normal text
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------FORMS AND INPUT -->
+
+
+    <div class="body" id="form">
+        <h1>FORMS AND INPUT </h1><br>
+        <hr><br>
+
+        <div class="body-cont">
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060form&#062 :</span> Defines an HTML form for user input
+                </p>
+            </div>
+
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+            <div class="col col1">
+                <p>
+                    <span class="name">&#060 &#062 :</span>
+                </p>
+            </div>
+        </div>
+
+    </div><!--FORM AND INPUT OVER-->
+
+
+</body>
+<script src="index.js"></script>
+
+</html>

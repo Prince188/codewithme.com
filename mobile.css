@@ -62,7 +62,7 @@
 
     .col1 {
         margin: 2% 1%;
-        height: 350px;
+        height: fit-content;
         width: 99%;
         padding: 1%;
         font-size: 1.3rem;

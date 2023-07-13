@@ -150,8 +150,8 @@ hr {
 
 .body {
     padding: 1%;
-    margin: 4% 1%;
-    width: 98%;
+    margin: 4% 0.5%;
+    width: 99%;
     /* border: 2px solid red; */
     box-shadow: 0 0 15px, 0 0 15px rgb(75, 75, 75);
 }
@@ -305,15 +305,17 @@ hr {
 .col1 p {
     background-color: transparent;
     margin: 5px 10px;
+    font-size: 90%;
 }
 
 .col span{
-    font-size: 1.7em;
+    font-size: 120%;
 }
 
 /*name of every tag */
 
 .name {
+    margin-top: 02.5%;
     color: red;
     font-weight: 700;
     background-color: whitesmoke;

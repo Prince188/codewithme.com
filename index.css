@@ -8,7 +8,7 @@
     font-family: 'Baloo Bhai 2', cursive;
 }
 
-#note {animation-timing-function: ease;}
+#note {animation-timing-function: inherit;}
 
 @keyframes example {
     0%   {color: red;}
@@ -19,10 +19,10 @@
 
 #note {
     width: 100%;
-    height: 100px;
+    height: 30px;
     color: red;
     animation-name: example;
-    animation-duration: 8s;
+    animation-duration: 8s ;
 }
 
 
@@ -150,12 +150,11 @@ hr {
 
 .body {
     padding: 1%;
-    margin: 2% 0;
+    margin: 4% 0;
     width: 94%;
     margin-left: 3%;
-    border-radius: 30px;
     /* border: 2px solid red; */
-    box-shadow: 0 0 30px, 0 0 15px rgb(75, 75, 75);
+    box-shadow: 0 0 15px, 0 0 15px rgb(75, 75, 75);
 }
 
 .body-cont {
@@ -181,9 +180,8 @@ hr {
 
 .col {
     width: 48%;
-    margin: 1%;
-    box-shadow: 0 0 20px lightblue, 0 0 12px;
-    border-radius: 20px;
+    margin: 1% 0;
+    box-shadow: 0 0 10px lightblue, 0 0 5px;
     transition: 0.4s;
 }
 
@@ -237,8 +235,7 @@ hr {
     padding: 12px 12px;
     /* border: 1px solid black; */
     border-top: none;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    /* border-bottom-left-radius: 20px; */
     /* background-color: red; */
     transition: 0.4s;
 }
@@ -280,13 +277,12 @@ hr {
 /*detail box : col1*/
 
 .col1 {
-    margin: 2%;
-    width: 96%;
+    margin: 2% 1%;
+    width: 98%;
     padding: 1%;
     font-size: 1.3rem;
     font-weight: 500;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    box-shadow: 0 0 10px lightblue, 0 0 12px;
     border: 0.5px  black solid;
 }
 
@@ -327,7 +323,7 @@ hr {
     .col {
         width: 96%;
         margin: 3%;
-        box-shadow: 0 0 10px lightblue, 0 0 8px;
+        box-shadow: 0 0 10px lightblue, 0 0 5px;
     }
 
     /*box img*/
@@ -354,13 +350,13 @@ hr {
     }
 
     .col1 {
-        margin: 3%;
-        width: 96%;
+        margin: 2% 1%;
+        width: 98%;
         padding: 1%;
         font-size: 1.3rem;
         font-weight: 500;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        box-shadow: 0 0 10px lightblue, 0 0 12px;
+        /* box-shadow: 0 0 10px lightblue, 0 0 12px; */
     }
 
     /* SUB BODY TAG */
@@ -368,10 +364,10 @@ hr {
 
     .body {
         padding: 1%;
-        margin: 4% 0;
+        margin: 7% 0;
         width: 90%;
         margin-left: 5%;
-        border-radius: 30px;
+        /* border-radius: 30px; */
         /* border: 2px solid red; */
         box-shadow: 0 0 20px, 0 0 12px grey;
     }
@@ -393,7 +389,7 @@ hr {
     .col {
         width: 96%;
         margin: 3%;
-        box-shadow: 0 0 10px lightblue, 0 0 8px;
+        box-shadow: 0 0 10px lightblue, 0 0 5px;
     }
 
     /*box img*/
@@ -414,20 +410,19 @@ hr {
     }
 
     .col1 {
-        margin: 3%;
-        width: 96%;
+        margin: 3% 1%;
+        width: 98%;
         padding: 1%;
         font-size: 1.3rem;
         font-weight: 500;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        box-shadow: 0 0 10px lightblue, 0 0 12px;
+        /* box-shadow: 0 0 10px lightblue, 0 0 12px; */
     }
     .body {
     padding: 1%;
-    margin: 4% 0;
+    margin: 5% 0;
     width: 94%;
     margin-left: 3%;
-    border-radius: 30px;
     /* border: 2px solid red; */
     box-shadow: 0 0 20px, 0 0 12px grey;
     }

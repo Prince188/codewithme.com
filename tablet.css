@@ -1,0 +1,98 @@
+/*----------------------------------------------------------------------------------------- MEDIA QUERY FOR TABLES */
+
+@media (min-width:577px) and (max-width:768px) {
+
+    /* NAVBAR */
+
+    .nav {
+        background-color: #34282c;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .row {
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 96%;
+        margin: 3%;
+        box-shadow: 0 0 10px lightblue, 0 0 5px;
+    }
+
+    /*box img*/
+
+    .image1 img {
+        width: fit-content;
+        /* height: 65%; */
+    }
+
+    /* co navbar */ 
+
+    .conav {
+        background-color: #454545;
+        height: fit-content;
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        display: flex;
+        border: none;
+        font-size: 0.89em;
+    }
+
+    .conav ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        /* flex-direction: column; conav element direction */
+        list-style: none;
+        background-color: #454545;
+        flex-wrap: wrap;
+    }
+
+    .col1 {
+        margin: 2% 1%;
+        height: 500px;
+        width: 48%;
+        padding: 1%;
+        font-size: 1.3rem;
+        font-weight: 500;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        border: 0.5px  black solid;
+        display: block;
+    }
+
+    .body {
+        padding: 1%;
+        margin: 7% 1%;
+        width: 98%;
+        /* border-radius: 30px; */
+        /* border: 2px solid red; */
+        box-shadow: 0 0 20px, 0 0 12px grey;
+        font-size: 0.8em;
+    }
+
+    .body h1 {
+        font-size: 1.7em;
+    }
+
+    .body p {
+        font-size: 1em;
+    }
+
+    .body-cont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -75,8 +75,8 @@
 
     .body {
         padding: 1%;
-        margin: 7% 1%;
-        width: 98%;
+        margin: 7% 0.5%;
+        width: 99%;
         /* border-radius: 30px; */
         /* border: 2px solid red; */
         box-shadow: 0 0 20px, 0 0 12px grey;

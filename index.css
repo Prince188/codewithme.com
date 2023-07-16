@@ -13,18 +13,31 @@
     background-size: cover;
 } */
 
-    /*=======================================================================================================================================================================      
+/*=======================================================================================================================================================================      
                                                                         FOR NOTICE ANIMATION 
 =======================================================================================================================================================================*/
 
 
-#note {animation-timing-function: inherit;}
+#note {
+    animation-timing-function: inherit;
+}
 
 @keyframes example {
-    0%   {color: red;}
-    25%  {color: yellow;}
-    50%  {color: blue;}
-    100% {color: red;}
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
 }
 
 #note {
@@ -32,7 +45,7 @@
     height: 50px;
     color: red;
     animation-name: example;
-    animation-duration: 8s ;
+    animation-duration: 8s;
 }
 
 
@@ -72,12 +85,12 @@ hr {
     border-radius: 10px;
 }
 
-.bt{
+.bt {
     display: none;
 }
 
 
-    /*=======================================================================================================================================================================      
+/*=======================================================================================================================================================================      
                                                                             NAVBAR 
 =======================================================================================================================================================================*/
 
@@ -115,7 +128,7 @@ hr {
     border-radius: 10px;
 }
 
-    /*=======================================================================================================================================================================      
+/*=======================================================================================================================================================================      
                                                                             CO NAVBAR 
 =======================================================================================================================================================================*/
 
@@ -143,7 +156,6 @@ hr {
 }
 
 .conav ul li {
-    padding: 0 5px;
     background-color: #454545;
     border: none;
     margin: 10px 0;
@@ -154,7 +166,7 @@ hr {
     text-decoration: none;
     color: white;
     background-color: transparent;
-    margin: 10px 10px;
+    margin: 10px 8px;
     border: 1px solid transparent;
     border-radius: 10px;
     padding: 7px 3px;
@@ -172,12 +184,12 @@ hr {
                                                                     HAMBURGE AND CLOSE BUTTON
 =======================================================================================================================================================================*/
 
-.mobile-navbar-btn{
+.mobile-navbar-btn {
     margin-left: 50px;
     display: none;
 }
 
-.fa .fa-bars{
+.fa .fa-bars {
     border: 2px solid red;
 }
 
@@ -187,27 +199,38 @@ hr {
 
 
 .body {
+    width: 100%;
     padding: 1%;
     margin: 4% 0.5%;
     width: 99%;
     /* border: 2px solid red; */
     box-shadow: 0 0 15px, 0 0 15px rgb(75, 75, 75);
+    border-radius: 20px;
 }
 
 .body-cont {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .body h1 {
     background-color: transparent;
     text-align: center;
     font-size: 1.8em;
+    font-family: Trebuchet MS;
     /* flex-wrap: wrap; */
 }
 
-.body p{
+.body p {
     font-size: 1.2em;
+}
+
+.body span {
+    text-transform: lowercase;
 }
 
 /* rows grid */
@@ -219,18 +242,24 @@ hr {
 }
 
 
-/* CARD */
+/*=======================================================================================================================================================================      
+                                                                            CARD
+=======================================================================================================================================================================*/
 
 .col {
     width: 48%;
     margin: 1% 0;
     box-shadow: 0 0 10px lightblue, 0 0 5px;
     transition: 0.4s;
+    border-radius: 20px;
 }
 
 .col:hover .card-body {
     background-color: blue;
     color: white;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .col:hover .card-foot a {
@@ -317,27 +346,58 @@ hr {
 }
 
 
+/*=======================================================================================================================================================================      
+                                                                            ATTRIBURTE BUTTON
+=======================================================================================================================================================================*/
+
+.att-btn{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.att {
+    margin-top: auto;
+    margin-right: auto;
+    /* margin-bottom: 10px; */
+}
+
+.att a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 50%;
+}
+
+
 /*---------------------------------------------------------------------------- HTML/CSS/JS FILE CODE */
 
-/*detail box : col1*/
+/*=======================================================================================================================================================================      
+                                                                            CO CLASS WITH " COL "
+=======================================================================================================================================================================*/
 
 .col1 {
-    margin: 2% 1%;
+    margin: 1.5% 0;
     height: 410px;
     width: 31%;
     padding: 1%;
     font-size: 1.2rem;
+    border-radius: 20px;
     font-weight: 500;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    border: 0.5px  black solid;
+    border: 0.5px black solid;
     display: block;
 }
 
-.col1:nth-child(odd){
+.col1:nth-child(odd) {
     background-color: #CCF381;
 }
 
-.col1:nth-child(even){
+.col1:nth-child(even) {
     background-color: skyblue;
 }
 
@@ -348,14 +408,14 @@ hr {
     font-size: 110%;
 }
 
-.col span{
+.col span {
     font-size: 150%;
     text-shadow: #3e8e41;
     font-family: serif;
 }
 
 /*=======================================================================================================================================================================      
-                                                                            NAME OF EVERY TAG
+                                                                            NAME OF EVERY TAG (SPAN)
 =======================================================================================================================================================================*/
 
 .name {
@@ -365,12 +425,11 @@ hr {
     background-color: whitesmoke;
     height: 150px;
     width: 99%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin-bottom: 10px;
 }
-
-
-

@@ -488,6 +488,7 @@ table {
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-spacing: 5px;
+    border: 2px solid black;
 }
 
 table th {
@@ -505,6 +506,8 @@ table th:nth-child(3) {
 
 table td {
     padding: 5px 15px;
+    border: 2px solid black;
+
 }
 
 table th:nth-child(odd) {

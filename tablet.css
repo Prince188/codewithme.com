@@ -77,14 +77,17 @@
 
     .col1 {
         margin: 1.5% 0;
-        height: 500px;
+        height: 400px;
         width: 48%;
         padding: 1%;
         font-size: 1.3rem;
         font-weight: 500;
         /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
         border: 0.5px black solid;
-        display: block;
+        display: flex;
+        /* justify-content: flex-end; */
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     /*=======================================================================================================================================================================      
@@ -106,12 +109,12 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         font-weight: 900;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .body h1 {
         font-size: 1.7em;
-        font-family:  Trebuchet MS;
+        font-family: Trebuchet MS;
     }
 
     .body p {
@@ -127,31 +130,35 @@
         display: none;
     }
 
-/*=======================================================================================================================================================================      
+    /*=======================================================================================================================================================================      
                                                                             ATTRIBURTE BUTTON
 =======================================================================================================================================================================*/
 
-.att-btn{
-    width: 100%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .att-btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 
-.att {
-    margin-top: auto;
-    /* position: absolute; */
-    /* bottom: -90px; */
-    /* margin-bottom: 10px; */
-}
+    .att {
+        margin-right: 50%;
+        margin-left: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
 
-.att a{
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    border-radius: 10px;
-    /* padding: 2px 50%; */
-}
+    .att a {
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 0 10px;
+        bottom: 0;
+        padding: 2px calc(60% - 31%);
+    }
+
 
 }

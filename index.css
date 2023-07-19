@@ -350,27 +350,35 @@ hr {
                                                                             ATTRIBURTE BUTTON
 =======================================================================================================================================================================*/
 
-.att-btn{
-    width: 100%;
-    margin-bottom: 10px;
-    height: 25%;
+.att-btn {
     display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.att-btn:hover .att a {
+    color: white;
+    background-color: red;
 }
 
 .att {
-    margin-top: auto;
-    margin-right: auto;
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* margin-bottom: 10px; */
 }
 
-.att a{
+.att a {
     text-decoration: none;
     color: black;
     border: 2px solid black;
-    border-radius: 10px;
-    padding: 2px 50%;
+    border-radius: 30px;
+    margin: 0 10px;
+    bottom: 0;
+    padding: 2px 30px;
 }
 
 
@@ -383,15 +391,20 @@ hr {
 .col1 {
     margin: 1.5% 0;
     height: 410px;
+    /* height: fit-content; */
     width: 31%;
     padding: 1%;
     font-size: 1.2rem;
     border-radius: 20px;
     font-weight: 500;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 0.5px black solid;
-    display: block;
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 .col1:nth-child(odd) {
     background-color: #CCF381;
@@ -424,12 +437,105 @@ hr {
     font-weight: 900;
     background-color: whitesmoke;
     height: 150px;
-    width: 99%;
+    width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin: 2% 0%;
+}
+
+/*=======================================================================================================================================================================      
+                                                                            ATTRIBUTES FILE CODE STRAT HERE
+=======================================================================================================================================================================*/
+
+
+/* .col2 {
+    margin: 1.5% 0;
+    height: fit-content;
+    width: 99%;
+    padding: 1%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.5px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col2:nth-child(odd) {
+    background-color: #CCF381;
+}
+
+.col2:nth-child(even) {
+    background-color: skyblue;
+}
+
+.col2 p {
+    background-color: transparent;
+    font-size: 110%;
+} */
+
+
+table {
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-spacing: 5px;
+}
+
+table th {
+    padding: 5px 10px;
+}
+
+table th:nth-child(1) {
+    border-top-left-radius: 20px;
+    background-color: #CCF381;
+}
+
+table th:nth-child(3) {
+    border-top-right-radius: 20px;
+}
+
+table td {
+    padding: 5px 15px;
+}
+
+table th:nth-child(odd) {
+    background-color: #CCF381;
+}
+
+table th:nth-child(even) {
+    background-color: skyblue;
+}
+
+
+table tr:last-child>td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+table tr:last-child>td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+table tr:nth-child(odd)>td:nth-child(odd){
+    background-color: #CCF381;
+}
+
+table tr:nth-child(odd)>td:nth-child(even){
+    background-color: skyblue;
+}
+
+table tr:nth-child(even)>td:nth-child(even){
+    background-color: #CCF381;
+}
+
+table tr:nth-child(even)>td:nth-child(odd){
+    background-color: skyblue;
 }

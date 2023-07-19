@@ -46,7 +46,7 @@
     }
 
 
-/*=======================================================================================================================================================================      
+    /*=======================================================================================================================================================================      
                                                                     BACK BUTTON
 =======================================================================================================================================================================*/
 
@@ -55,7 +55,7 @@
     }
 
 
-/*=======================================================================================================================================================================      
+    /*=======================================================================================================================================================================      
                                                                             CO-NAVBAR 
 =======================================================================================================================================================================*/
 
@@ -97,6 +97,69 @@
         display: block;
     }
 
+    /* .col2 {
+        margin: 1.5% 0;
+        height: fit-content;
+        width: 99%;
+        padding: 1%;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        font-weight: 500;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 0.5px black solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .col2 p {
+        background-color: transparent;
+        font-size: 110%;
+    } */
+
+    table {
+        margin: 5px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: .5rem;
+        font-family:  sans-serif;
+        border-spacing: 5px;
+        border: 2px solid black;
+    }
+
+    table th {
+        padding: 5px 5px;
+    }
+
+    table th:nth-child(1) {
+        border-top-left-radius: 5px;
+        background-color: #CCF381;
+    }
+
+    table th:nth-child(3) {
+        border-top-right-radius: 5px;
+    }
+
+    table td {
+        padding: 5px 15px;
+        border: 0.5px solid black;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #CCF381;
+    }
+
+    table tr:nth-child(even) {
+        background-color: skyblue;
+    }
+
+    table tr:last-child > td:last-child{
+        border-bottom-right-radius: 5px;
+    }
+
+    table tr:last-child > td:first-child{
+        border-bottom-left-radius: 05px;
+    }
+
     /*=======================================================================================================================================================================      
                                                                             SUB BODY TAG 
 =======================================================================================================================================================================*/
@@ -117,7 +180,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         font-weight: 900;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .body h1 {
@@ -152,7 +215,7 @@
     }
 
 
-/*=======================================================================================================================================================================      
+    /*=======================================================================================================================================================================      
                                                                     HAMBURGE AND CLOSE BUTTON
 =======================================================================================================================================================================*/
 
@@ -168,29 +231,40 @@
         border: 2px solid red;
     }
 
-    .fa-close{
+    .fa-close {
         padding: 0 2px;
         border: 2px solid red;
     }
 
-/*=======================================================================================================================================================================      
+    /*=======================================================================================================================================================================      
                                                                             ATTRIBURTE BUTTON
 =======================================================================================================================================================================*/
 
-.att {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* bottom: 0; */
-    margin-bottom: 10px;
-}
+    .att-btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
 
-.att a{
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 2px 80px;
-}
+    .att {
+        /* margin-right: 50%;
+    margin-left: 50%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .att a {
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 0 10px;
+        bottom: 0;
+        padding: 1px 50px;
+    }
+
 
 }

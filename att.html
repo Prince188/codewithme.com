@@ -27,7 +27,7 @@
                 <!-- <img src="" alt=""> -->
                 <strong class="tit">CODE WITH ME : ATTRIBUTES</strong>
             </a>
-            <a href="html.html" class="backbtn">
+            <a href="html.html" class="backbtn" onclick="history.back()">
                 <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i>
                     BACK</strong>
             </a>
@@ -43,13 +43,14 @@
 
     </header>
 
-<!--=================================================================================================================================================================    
+    <!--=================================================================================================================================================================    
                                                                         <form> : ATTRIBUTES  STRAT HERE 
 =====================================================================================================================================================================-->
 
     <div class="body" id="formatt">
         <h1>FORMS AND INPUT : ATTRIBUTES</h1>
-        <br><hr><br>
+        <br>
+        <hr><br>
         <table border="1">
             <tr>
                 <th>ATTRIBUTES</th>
@@ -74,7 +75,8 @@
             <tr>
                 <td>enctype</td>
                 <td>application/x-www-form-urlencoded ,<br> multipart/form-data , <br> text/plain</td>
-                <td>Specifies how the form-data should be encoded when submitting it to the server (only for method="post")</td>
+                <td>Specifies how the form-data should be encoded when submitting it to the server (only for
+                    method="post")</td>
             </tr>
             <tr>
                 <td>method</td>
@@ -97,7 +99,7 @@
                     help , <br>
                     license , <br>
                     next , <br>
-                    nofollow ,  <br>
+                    nofollow , <br>
                     noopener , <br>
                     noreferrer , <br>
                     opener , <br>
@@ -118,19 +120,46 @@
 
     </div>
 
-<!--=================================================================================================================================================================    
+    <!--=================================================================================================================================================================    
                                                                         <input> : ATTRIBUTES  STRAT HERE 
 =====================================================================================================================================================================-->
 
     <div class="body" id="inputatt">
         <!-- <h1>INPUT : ATTRIBUTES</h1> -->
-        <br><hr><br>
+        <br>
+        <hr><br>
         <table border="1">
             remain data will upload soon....
         </table>
     </div>
 
     </div>
+
+
+    <!--=======================================================================================================================================================================      
+                                                                        FOOTER
+=======================================================================================================================================================================-->
+
+    <footer>
+        <div class="footlogo">
+            <img src="preview.png" alt="" width="100px" height="100px">
+        </div> <br>
+        <div class="copytext">
+            &COPY;2023 CODE WITH ME
+        </div> <br>
+        <div class="feedback">
+            <form action="thx.html">
+                <label for="name">NAME</label> <br>
+                <input type="text" placeholder="ENTER YOUR NAME"> <br><br>
+                <label for="email">EMAIL</label> <br>
+                <input type="email" placeholder="ENTER VALID EMIAL"> <br><br>
+                <label for="cont">CONTACT</label> <br>
+                <input type="number" placeholder="ENTER VALID NUMBER"> <br><br>
+                <a href="thx.html"><button type="submit" class="sub">SUBMIT</button></a>
+                <button type="reset" class="reset">RESET</button>
+            </form>
+        </div>
+    </footer>
 
 </body>
 

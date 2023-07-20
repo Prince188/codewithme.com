@@ -10,7 +10,11 @@
                                                                     NAVBAR
 =======================================================================================================================================================================*/
 
-
+    /* .mainnav{
+        position: fixed;
+        width: 100%;
+        top: 0;
+    } */
 
 
     .nav {
@@ -23,6 +27,8 @@
         justify-content: space-between;
         font-size: 1rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: fixed;
+        top: 0;
     }
 
     .row {
@@ -97,31 +103,12 @@
         display: block;
     }
 
-    /* .col2 {
-        margin: 1.5% 0;
-        height: fit-content;
-        width: 99%;
-        padding: 1%;
-        font-size: 1.2rem;
-        border-radius: 20px;
-        font-weight: 500;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        border: 0.5px black solid;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .col2 p {
-        background-color: transparent;
-        font-size: 110%;
-    } */
-
     table {
         margin: 5px;
         border-radius: 5px;
         font-weight: 600;
         font-size: .5rem;
-        font-family:  sans-serif;
+        font-family: sans-serif;
         border-spacing: 5px;
         border: 2px solid black;
     }
@@ -152,29 +139,30 @@
         background-color: skyblue;
     }
 
-    table tr:last-child > td:last-child{
+    table tr:last-child>td:last-child {
         border-bottom-right-radius: 5px;
     }
 
-    table tr:last-child > td:first-child{
+    table tr:last-child>td:first-child {
         border-bottom-left-radius: 05px;
     }
 
-    table tr:nth-child(odd)>td:nth-child(odd){
+    table tr:nth-child(odd)>td:nth-child(odd) {
         background-color: #CCF381;
     }
-    
-    table tr:nth-child(odd)>td:nth-child(even){
+
+    table tr:nth-child(odd)>td:nth-child(even) {
         background-color: skyblue;
     }
-    
-    table tr:nth-child(even)>td:nth-child(even){
+
+    table tr:nth-child(even)>td:nth-child(even) {
         background-color: #CCF381;
     }
-    
-    table tr:nth-child(even)>td:nth-child(odd){
+
+    table tr:nth-child(even)>td:nth-child(odd) {
         background-color: skyblue;
     }
+
     /*=======================================================================================================================================================================      
                                                                             SUB BODY TAG 
 =======================================================================================================================================================================*/
@@ -182,8 +170,8 @@
 
     .body {
         padding: 1%;
-        margin: 7% 0.5%;
-        width: 99%;
+        margin: 7% 1%;
+        width: 98%;
         /* border-radius: 30px; */
         /* border: 2px solid red; */
         box-shadow: 0 0 20px, 0 0 12px grey;
@@ -241,7 +229,7 @@
     }
 
     .fa-bars {
-        /* display: none; */
+        display: none;
         padding: 0 2px;
         border: 2px solid red;
     }
@@ -264,8 +252,6 @@
     }
 
     .att {
-        /* margin-right: 50%;
-    margin-left: 50%; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -275,11 +261,70 @@
         text-decoration: none;
         color: black;
         border: 2px solid black;
-        border-radius: 10px;
+        border-radius: 30px;
         margin: 0 10px;
         bottom: 0;
         padding: 1px 50px;
     }
+
+/*=======================================================================================================================================================================      
+                                                                            FOOTER 
+=======================================================================================================================================================================*/
+
+footer{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.footlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footlogo img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: 2px solid red;
+}
+
+.copytext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.feedback{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* border: 2px solid red; */
+    display: block;
+    width: fit-content;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    font-size: .8rem;
+    font-family: baloo bhai;
+    border: 1px solid black;
+    width: 210px;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+
 
 
 }

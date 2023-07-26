@@ -16,21 +16,25 @@
     <header class="header">
 
         <!-- NAVBAR -->
-
         <div class="nav">
-            <a href="index.html" class="backbtn" style="color: #34282c;">
-                <!-- <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i> BACK</strong> -->
-            </a>
+            <div class="mobile-navbar-btn" style="color: white;">
+                <i class="fa fa-bars" class="mobile-navbar-icon"></i>
+                <i class="fa fa-close" class="mobile-navbar-icon"></i>
+            </div>
+
             <a href="#">
                 <!-- <img src="" alt=""> -->
-                <strong class="tit">CODE WITH ME : CSS</strong>
+                <strong class="tit">CODE WITH ME : HTML</strong>
             </a>
-            <a href="index.html" class="backbtn">
-                <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i> BACK</strong>
+            <a class="backbtn" onclick="history.back()">
+                <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i>
+                    BACK</strong>
+                <div class="bt"><i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i></div>
             </a>
         </div>
-
-        <!-- co navbar -->
+        <!--=======================================================================================================================================================================      
+                                                                        CONAV BAR 
+=======================================================================================================================================================================-->
 
         <div class="conav">
             <ul>
@@ -49,7 +53,6 @@
                 <li><a href="#prog">PROGRAMMING</a></li>
             </ul>
         </div>
-
     </header>
 
     <!--=======================================================================================================================================================================      
@@ -1033,7 +1036,7 @@
                 <input type="text" placeholder="ENTER VALID NUMBER" maxlength="10" class="g"> <br><br>
                 <label for="gender">GENDER</label> <br>
                 <input type="radio" name="gender" id="" class="gen">MALE <br>
-                <input type="radio" name="gender" id="" class="gen">FEMALE <br><br>
+                <input type="radio" name="gender" id="" class="gen">FEMALE  <br><br>
                 <a href="thx.html"><button type="submit" class="sub">SUBMIT</button></a>
                 <button type="reset" class="reset">RESET</button>
             </form>

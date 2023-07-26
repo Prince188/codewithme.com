@@ -2,26 +2,20 @@
 
 @media (max-width:576px) {
 
-
-    *{
-        padding: 0;
-        margin: 0;
+    * {
+        overflow-x: hidden;
     }
 
     /*=======================================================================================================================================================================      
                                                                     NAVBAR
 =======================================================================================================================================================================*/
 
-    .mainnav{
+    /* .mainnav{
         position: fixed;
         width: 100%;
         top: 0;
-    }
-/* 
-    .header{
-        position: sticky;
-        top: 0;
     } */
+
 
     .nav {
         background-color: #34282c;
@@ -30,9 +24,17 @@
         display: flex;
         text-align: center;
         align-items: center;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         font-size: 1rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: sticky;
+        top: 0;
+    }
+
+    .row {
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .col {
@@ -58,7 +60,7 @@
         display: none;
     }
 
-    .bt {
+    .bt{
         display: flex;
     }
 
@@ -67,30 +69,27 @@
 =======================================================================================================================================================================*/
 
     .conav {
-        background-color: #454545;
-        height: fit-content;
         width: 100%;
-        text-align: center;
+        height: 100vh;
+        position: absolute;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 0.8em;
+        top: 0;
+        left: 0;
+        display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Baloo Bhai 2', cursive;
-        font-size: 0.8rem;
-        display: flex;
-        border: none;
+
+        /* to get transition  */
+
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
     }
 
     .conav ul {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        /*arrange item in ine*/
-        flex-wrap: wrap;
-        list-style: none;
-        background-color: #454545;
+        flex-direction: column;
     }
-
-
-
 
     /*=======================================================================================================================================================================      
                                                                             CO CLASS WITH " COL "
@@ -222,6 +221,27 @@
         margin-bottom: 10px;
     }
 
+
+    /*=======================================================================================================================================================================      
+                                                                    HAMBURGE AND CLOSE BUTTON
+=======================================================================================================================================================================*/
+
+    .mobile-navbar-btn {
+        margin-left: 5px;
+        display: block;
+        color: red;
+    }
+
+    .fa-bars {
+        display: none;
+        padding: 0 2px;
+        border: 2px solid red;
+    }
+
+    .fa-close {
+        padding: 0 2px;
+        border: 2px solid red;
+    }
 
     /*=======================================================================================================================================================================      
                                                                             ATTRIBURTE BUTTON

@@ -16,26 +16,21 @@
     <header class="header">
 
         <!-- NAVBAR -->
-        <div class="nav">
-            <div class="mobile-navbar-btn" style="color: white;">
-                <i class="fa fa-bars" class="mobile-navbar-icon"></i>
-                <i class="fa fa-close" class="mobile-navbar-icon"></i>
-            </div>
 
+        <div class="nav">
+            <a href="index.html" class="backbtn" style="color: #34282c;">
+                <!-- <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i> BACK</strong> -->
+            </a>
             <a href="#">
                 <!-- <img src="" alt=""> -->
-                <strong class="tit">CODE WITH ME : HTML</strong>
+                <strong class="tit">CODE WITH ME : CSS</strong>
             </a>
-            <a href="index.html" class="backbtn" onclick="history.back()">
-                <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i>
-                    BACK</strong>
-                <div class="bt"><i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i></div>
+            <a href="index.html" class="backbtn">
+                <strong class="btn"> <i class="fa fa-arrow-circle-o-left" style="background: transparent;"></i> BACK</strong>
             </a>
         </div>
 
-        <!--=======================================================================================================================================================================      
-                                                                        CONAV BAR 
-=======================================================================================================================================================================-->
+        <!-- co navbar -->
 
         <div class="conav">
             <ul>
@@ -54,6 +49,7 @@
                 <li><a href="#prog">PROGRAMMING</a></li>
             </ul>
         </div>
+
     </header>
 
     <!--=======================================================================================================================================================================      
@@ -441,7 +437,7 @@
                 </p>
                 <div class="att-btn"> <!--ATTRIBUTE NAVIGATE BUTTON-->
                     <div class="att">
-                        <a href="att.html#formatt" target="_blank">ATTRIBUTES</a>
+                        <a href="att.html#formatt">ATTRIBUTES</a>
                     </div>
                 </div>
             </div>
@@ -1029,13 +1025,15 @@
         </div> <br>
         <div class="feedback">
             <form action="thx.html">
-                <h3>FEEDBACK</h3>
                 <label for="name">NAME</label> <br>
-                <input type="text" placeholder="ENTER YOUR NAME"> <br><br>
+                <input type="text" placeholder="ENTER YOUR NAME" class="g"> <br><br>
                 <label for="email">EMAIL</label> <br>
-                <input type="email" placeholder="ENTER VALID EMIAL"> <br><br>
+                <input type="email" placeholder="ENTER VALID EMIAL" class="g"> <br><br>
                 <label for="cont">CONTACT</label> <br>
-                <input type="number" placeholder="ENTER VALID NUMBER"> <br><br>
+                <input type="text" placeholder="ENTER VALID NUMBER" maxlength="10" class="g"> <br><br>
+                <label for="gender">GENDER</label> <br>
+                <input type="radio" name="gender" id="" class="gen">MALE <br>
+                <input type="radio" name="gender" id="" class="gen">FEMALE <br><br>
                 <a href="thx.html"><button type="submit" class="sub">SUBMIT</button></a>
                 <button type="reset" class="reset">RESET</button>
             </form>

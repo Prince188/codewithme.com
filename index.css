@@ -510,7 +510,7 @@ form h3{
     background-color: rgba(0, 0, 0,1);
 }
 
-input{
+.g{
     font-size: 1rem;
     border: 1px solid black;
     padding: 5px;
@@ -519,6 +519,11 @@ input{
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
 }
+
+input[type=radio]{
+    margin: 10px;
+}
+
 
 .feedback{
     display: flex;

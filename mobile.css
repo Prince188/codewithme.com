@@ -3,7 +3,10 @@
 @media (max-width:576px) {
 
     * {
-        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
     }
 
     /*=======================================================================================================================================================================      
@@ -60,7 +63,7 @@
         display: none;
     }
 
-    .bt{
+    .bt {
         display: flex;
     }
 
@@ -68,7 +71,7 @@
                                                                             CO-NAVBAR 
 =======================================================================================================================================================================*/
 
-    .conav {
+    /* .conav {
         width: 100%;
         height: 100vh;
         position: absolute;
@@ -80,15 +83,45 @@
         align-items: center;
         justify-content: center;
 
-        /* to get transition  */
 
         transform: translateX(100%);
         transition: all 0.5s linear;
 
+    } */
+
+    .header {
+        width: 100%;
+    }
+
+    .conav {
+        width: 100%;
+        align-items: center;
+        height: fit-content;
+        position: sticky;
     }
 
     .conav ul {
-        flex-direction: column;
+        white-space: nowrap;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto hidden;
+        width: 100%;
+    }
+
+    .conav ul li {
+        text-align: center;
+    }
+
+    .conav ul li a {
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        margin: 10px 8px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 7px 3px;
+        font-weight: 700;
+        transition: 0.4s;
     }
 
     /*=======================================================================================================================================================================      
@@ -105,6 +138,30 @@
         font-weight: 500;
         /* border: 0.5px black solid; */
         display: block;
+    }
+
+    .col1 p{
+        font-size: 0.8rem;
+    }
+    .col2 {
+        margin: 2% 1.5%;
+        height: fit-content;
+        box-shadow: none;
+        width: 99%;
+        padding: 1%;
+        font-size: 1.3rem;
+        font-weight: 500;
+        /* border: 0.5px black solid; */
+        display: block;
+    }
+
+    .col2 p{
+        font-size: 0.8rem;
+    }
+
+    .values{
+        font-size: 0.7rem;
+        margin: 5px 10px;
     }
 
     table {
@@ -196,7 +253,7 @@
     }
 
     .body p {
-        font-size: 1em;
+        font-size: 1rem;
     }
 
 
@@ -270,64 +327,6 @@
         bottom: 0;
         padding: 1px 50px;
     }
-
-    /*=======================================================================================================================================================================      
-                                                                            FOOTER 
-=======================================================================================================================================================================*/
-
-    footer {
-        padding: 15px;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: white;
-    }
-
-    .footlogo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .footlogo img {
-        border-radius: 50%;
-        width: 75px;
-        height: 75px;
-        border: 2px solid red;
-    }
-
-    .copytext {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1rem;
-    }
-
-    .feedback {
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    form {
-        /* background-color: rgba(0, 0, 0, 0.8); */
-        /* border: 2px solid red; */
-        display: block;
-        width: fit-content;
-        padding: 5px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    input {
-        font-size: .8rem;
-        font-family: baloo bhai;
-        border: 1px solid black;
-        width: 210px;
-        padding: 5px;
-        border-radius: 10px;
-        text-transform: uppercase;
-    }
-
 
 
 

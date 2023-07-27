@@ -179,6 +179,11 @@ hr {
     padding: 7px 3px;
     border-radius: 10px;
 }
+/* .conav .cssul li a:hover {
+    border: 1px solid white;
+    padding: 3px 3px;
+    border-radius: 50%;
+} */
 
 /*=======================================================================================================================================================================      
                                                                     HAMBURGE AND CLOSE BUTTON
@@ -431,6 +436,80 @@ hr {
     font-family: serif;
 }
 
+.values{
+    text-transform: none;
+    margin: 5px 10px 10px 10px;
+    border: 1px solid red;
+    padding: 2px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.values:nth-child(odd) {
+    background-color: skyblue;
+    /* border-color: #CCF381; */
+
+}
+
+.col2 .values:nth-child(even) {
+    background-color: #ccf381;
+    /* border-color: skyblue; */
+}
+.col2 .values:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border-color: skyblue; */
+}
+
+.col2 {
+    margin: 1.5% 0;
+    height: 500px;
+    box-shadow: none;
+    /* height: fit-content; */
+    width: 48%;
+    padding: 1%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 0.5px solid black; */
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+}
+
+.col2:nth-child(odd) {
+    background-color: #CCF381;
+    background: linear-gradient(#ccf381,white);
+
+}
+
+.col2:nth-child(even) {
+    background-color: skyblue;
+    background: linear-gradient(skyblue,white);
+
+}
+
+
+.col2 p {
+    background-color: transparent;
+    margin: 5px 10px;
+    font-size: 110%;
+}
+
+.col2 .values{
+    margin-bottom: 20px;
+
+}
+
+.e{
+    display: flex;
+}
+.ex{
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*============================================================================================================================================================      
                                                                     NAME OF EVERY TAG (SPAN)
 ===========================================================================================================================================================*/
@@ -583,7 +662,7 @@ table th:nth-child(1) {
     background-color: #CCF381;
 }
 
-table th:nth-child(3) {
+table th:last-child {
     border-top-right-radius: 20px;
 }
 

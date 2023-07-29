@@ -43,6 +43,7 @@
     color: red;
     animation-name: example;
     animation-duration: 8s;
+    animation: example 8s infinite;
 }
 
 
@@ -56,6 +57,7 @@ hr {
 .header {
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 .alllang {
@@ -403,6 +405,15 @@ hr {
     /* justify-content: flex-end; */
     flex-direction: column;
     justify-content: space-between;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 0;
+}
+
+.col1.active{
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 

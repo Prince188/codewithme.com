@@ -140,22 +140,7 @@
         display: block;
     }
 
-    .col1 p{
-        font-size: 0.8rem;
-    }
-    .col2 {
-        margin: 2% 1.5%;
-        height: fit-content;
-        box-shadow: none;
-        width: 99%;
-        padding: 1%;
-        font-size: 1.3rem;
-        font-weight: 500;
-        /* border: 0.5px black solid; */
-        display: block;
-    }
-
-    .col2 p{
+    .col1 p{ 
         font-size: 0.8rem;
     }
 

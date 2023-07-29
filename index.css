@@ -19,7 +19,7 @@
 
 
 #note {
-    animation-timing-function: inherit;
+    animation-timing-function: initial;
 }
 
 @keyframes example {
@@ -27,17 +27,14 @@
         color: red;
     }
 
-    25% {
+    50% {
         color: yellow;
     }
 
-    50% {
+    100% {
         color: blue;
     }
 
-    100% {
-        color: red;
-    }
 }
 
 #note {
@@ -355,7 +352,7 @@ hr {
                                                                             ATTRIBURTE BUTTON
 =======================================================================================================================================================================*/
 
-.att-btn {
+/* .att-btn {
     display: block;
     width: 100%;
     justify-content: center;
@@ -364,11 +361,9 @@ hr {
 
 
 .att {
-    /* margin-bottom: 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 10px; */
 }
 
 .att-btn:hover .att a {
@@ -383,7 +378,7 @@ hr {
     margin: 0 10px;
     bottom: 0;
     padding: 2px 30px;
-}
+} */
 
 
 /*---------------------------------------------------------------------------- HTML/CSS/JS FILE CODE */
@@ -411,13 +406,13 @@ hr {
 }
 
 
-.col1:nth-child(odd) {
+.col1:nth-child(2n+1) {
     background-color: #CCF381;
     background: linear-gradient(#ccf381,white);
 
 }
 
-.col1:nth-child(even) {
+.col1:nth-child(2n+2) {
     background-color: skyblue;
     background: linear-gradient(skyblue,white);
 
@@ -444,71 +439,6 @@ hr {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.values:nth-child(odd) {
-    background-color: skyblue;
-    /* border-color: #CCF381; */
-
-}
-
-.col2 .values:nth-child(even) {
-    background-color: #ccf381;
-    /* border-color: skyblue; */
-}
-.col2 .values:first-child {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    /* border-color: skyblue; */
-}
-
-.col2 {
-    margin: 1.5% 0;
-    height: 500px;
-    box-shadow: none;
-    /* height: fit-content; */
-    width: 48%;
-    padding: 1%;
-    font-size: 1.2rem;
-    border-radius: 20px;
-    font-weight: 500;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* border: 0.5px solid black; */
-    display: flex;
-    /* justify-content: flex-end; */
-    flex-direction: column;
-}
-
-.col2:nth-child(odd) {
-    background-color: #CCF381;
-    background: linear-gradient(#ccf381,white);
-
-}
-
-.col2:nth-child(even) {
-    background-color: skyblue;
-    background: linear-gradient(skyblue,white);
-
-}
-
-
-.col2 p {
-    background-color: transparent;
-    margin: 5px 10px;
-    font-size: 110%;
-}
-
-.col2 .values{
-    margin-bottom: 20px;
-
-}
-
-.e{
-    display: flex;
-}
-.ex{
-    margin: 2px;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 /*============================================================================================================================================================      
                                                                     NAME OF EVERY TAG (SPAN)

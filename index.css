@@ -178,6 +178,7 @@ hr {
     padding: 7px 3px;
     border-radius: 10px;
 }
+
 /* .conav .cssul li a:hover {
     border: 1px solid white;
     padding: 3px 3px;
@@ -411,7 +412,7 @@ hr {
     z-index: 0;
 }
 
-.col1.active{
+.col1.active {
     transform: translateY(0px);
     opacity: 1;
 }
@@ -419,13 +420,13 @@ hr {
 
 .col1:nth-child(2n+1) {
     background-color: #CCF381;
-    background: linear-gradient(#ccf381,white);
+    background: linear-gradient(#ccf381, white);
 
 }
 
 .col1:nth-child(2n+2) {
     background-color: skyblue;
-    background: linear-gradient(skyblue,white);
+    background: linear-gradient(skyblue, white);
 
 }
 
@@ -442,7 +443,7 @@ hr {
     font-family: serif;
 }
 
-.values{
+.values {
     text-transform: none;
     margin: 5px 10px 10px 10px;
     border: 1px solid red;
@@ -487,23 +488,23 @@ hr {
                                                                             FOOTER 
 =======================================================================================================================================================================*/
 
-footer{
+footer {
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
 }
 
-.footlogo{
+.footlogo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footlogo img{
+.footlogo img {
     border-radius: 50%;
 }
 
-.copytext{
+.copytext {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -512,7 +513,7 @@ footer{
 
 
 
-form{
+form {
     /* background-color: rgba(0, 0, 0, 0.8); */
     border: 2px solid red;
     display: block;
@@ -520,17 +521,17 @@ form{
     padding: 7px;
 }
 
-form h3{
+form h3 {
     border: 2px solid red;
     border-radius: 30px;
     width: fit-content;
     padding: 5px;
     text-align: center;
-    transform: translate(60%,-75%);
-    background-color: rgba(0, 0, 0,1);
+    transform: translate(60%, -75%);
+    background-color: rgba(0, 0, 0, 1);
 }
 
-.g{
+.g {
     font-size: 1rem;
     border: 1px solid black;
     padding: 5px;
@@ -540,12 +541,12 @@ form h3{
     font-family: 'Times New Roman', Times, serif;
 }
 
-input[type=radio]{
+input[type=radio] {
     margin: 10px;
 }
 
 
-.feedback{
+.feedback {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -553,26 +554,27 @@ input[type=radio]{
 
 }
 
-input:hover{
+input:hover {
     border: 1px solid red;
 }
 
-input[type=email]{
+input[type=email] {
     text-transform: lowercase;
 }
 
-button{
+button {
     padding: 2px 5px;
     border: 1px solid black;
     border-radius: 10px;
 }
 
-.reset{
+.reset {
     float: right;
     border: 2px solid black;
     border-radius: 30px;
 }
-.sub{
+
+.sub {
     /* float: right; */
     border: 2px solid black;
     border-radius: 30px;
@@ -630,20 +632,18 @@ table tr:last-child>td:first-child {
     border-bottom-left-radius: 20px;
 }
 
-table tr:nth-child(odd)>td:nth-child(odd){
+table tr:nth-child(odd)>td:nth-child(odd) {
     background-color: #CCF381;
 }
 
-table tr:nth-child(odd)>td:nth-child(even){
+table tr:nth-child(odd)>td:nth-child(even) {
     background-color: skyblue;
 }
 
-table tr:nth-child(even)>td:nth-child(even){
+table tr:nth-child(even)>td:nth-child(even) {
     background-color: #CCF381;
 }
 
-table tr:nth-child(even)>td:nth-child(odd){
+table tr:nth-child(even)>td:nth-child(odd) {
     background-color: skyblue;
 }
-
-
